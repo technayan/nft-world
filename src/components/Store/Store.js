@@ -42,7 +42,12 @@ const Store = () => {
     }
 
   
-
+    // Choose Again Function
+    const chooseAgain = () => {
+        selected = [];
+        setSelectedItems(selected);
+        setChoosen(selected);
+    }
     
 
     return (
@@ -54,7 +59,7 @@ const Store = () => {
             </div>
             <div className="selected-product-container">
                 {
-                    <Cart selected = {selectedItems} choosenItem = {choosen} chooseOne = {chooseOne}></Cart>
+                    <Cart selected = {selectedItems} chooseAgain = {chooseAgain} choosenItem = {choosen} chooseOne = {chooseOne}></Cart>
                 }
 
                

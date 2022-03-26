@@ -6,7 +6,7 @@ import './Cart.css';
 
 const Cart = (props) => {
     const {name, img} = props.choosenItem;
-    const {selected, chooseOne,} = props;
+    const {selected, chooseOne, chooseAgain} = props;
     return (
         <div className='cart'>
             <h2>Selected NFT's</h2>
@@ -20,7 +20,7 @@ const Cart = (props) => {
                 <img className='choosen-item-img' src={img} alt={name} />
                 <h3 className='choosen-item-name'>{name}</h3>
             </div>
-            <button className='choose-again-btn' >Choose Again</button>
+            <button className='choose-again-btn' onClick = {() => chooseAgain()}>Choose Again</button>
         </div>
     );
 };
