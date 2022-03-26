@@ -1,0 +1,13 @@
+.question1 {
+    background: #ded8ff;
+    width: 40%;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.answer {
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: justify;
+}
