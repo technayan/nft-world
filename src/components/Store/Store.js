@@ -17,13 +17,14 @@ const Store = () => {
     let selected = [];
 
     const addToCart = (props) => {
-
-        const exist = selectedItems.find(product => product.id === props.id);
-        if(!exist) {
-            selected = [...selectedItems, props];
-            setSelectedItems(selected);
+        if (selectedItems.length < 4) {
+            const exist = selectedItems.find(product => product.id === props.id);
+            if(!exist) {
+                selected = [...selectedItems, props];
+                setSelectedItems(selected);
+            } 
         } else {
-
+            alert("You can't select more than 4 items");
         }
     }
 
