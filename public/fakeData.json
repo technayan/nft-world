@@ -2,73 +2,73 @@
     {
       "id": 101,
       "name": "Elephant NFT",
-      "img": "../src/images/elephant.png",
+      "img": "./images/elephant.png",
       "price": 110
     },
     {
       "id": 102,
       "name": "Fox NFT",
-      "img": "../src/images/fox.png",
+      "img": "./images/fox.png",
       "price": 105
     },
     {
       "id": 103,
       "name": "Frog NFT",
-      "img": "../src/images/frog.png",
+      "img": "./images/frog.png",
       "price": 100
     },
     {
       "id": 104,
       "name": "Owl NFT",
-      "img": "../src/images/owl.png",
+      "img": "./images/owl.png",
       "price": 120
     },
     {
       "id": 105,
       "name": "Parrot NFT",
-      "img": "../src/images/parrot.png",
+      "img": "./images/parrot.png",
       "price": 130
     },
     {
       "id": 106,
       "name": "Rhino NFT",
-      "img": "../src/images/rhino.png",
+      "img": "./images/rhino.png",
       "price": 150
     },
     {
       "id": 107,
       "name": "Sculpture NFT",
-      "img": "../src/images/sculpture.png",
+      "img": "./images/sculpture.png",
       "price": 200
     },
     {
       "id": 108,
       "name": "Shark NFT",
-      "img": "../src/images/shark.png",
+      "img": "./images/shark.png",
       "price": 110
     },
     {
       "id": 109,
       "name": "Tiger NFT",
-      "img": "../src/images/tiger.png",
+      "img": "./images/tiger.png",
       "price": 115
     },
     {
       "id": 110,
       "name": "Turtle NFT",
-      "img": "../src/images/turtle.png",
+      "img": "./images/turtle.png",
       "price": 110
     },
     {
       "id": 111,
       "name": "Warrior NFT",
-      "img": "../src/images/warrior.png",
+      "img": "./images/warrior.png",
       "price": 126
     },
     {
       "id": 112,
       "name": "Whale NFT",
-      "img": "../src/images/whale.png",
+      "img": "./images/whale.png",
       "price": 140
     }
   ]
