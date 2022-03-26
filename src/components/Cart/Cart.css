@@ -1,0 +1,32 @@
+.cart {
+    background: #e9e5ff;
+    border-radius: 8px;
+    padding: 15px 0 25px;
+}
+
+.choose-one-btn,
+.choose-again-btn{
+    color: #fff;
+    width: 170px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s ease;
+}
+
+.choose-one-btn {
+    background: #7057ff;
+}
+
+.choose-again-btn {
+    background: #ff5672;
+}
+
+.choose-one-btn:hover,
+.choose-again-btn:hover {
+    opacity: 1;
+}
