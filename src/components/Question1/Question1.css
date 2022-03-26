@@ -11,3 +11,10 @@
     line-height: 1.5;
     text-align: justify;
 }
+
+@media (max-width: 900px) {
+    .question1 {
+        width: 80%;
+        margin: 20px auto;
+    }
+}

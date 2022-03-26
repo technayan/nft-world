@@ -16,3 +16,12 @@
 .selected-item-name {
     margin: 0;
 }
+
+@media (max-width: 900px) {
+    .selected-item {
+        margin: 10px 0;
+    }
+    .selected-item-img {
+        margin-right: 5px;
+    }
+}

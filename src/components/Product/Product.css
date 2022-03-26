@@ -44,3 +44,14 @@
 .cart-btn:hover {
     background: #7057ff;
 }
+
+@media (max-width: 900px) {
+    .product {
+        width: 190px;
+        padding: 5px 0;
+        height: 330px;
+    }
+    .product-img {
+        width: 180px;
+    }
+}
