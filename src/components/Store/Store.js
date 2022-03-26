@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Cart from '../Cart/Cart';
+import Cart from '../Cart/Cart';    
 import Product from '../Product/Product';
 import './Store.css'
 
@@ -29,6 +29,22 @@ const Store = () => {
     }
 
 
+
+    const [choosen, setChoosen] = useState([]);
+
+    const chooseOne = () => {
+        const randomNumber = Math.floor(Math.random()* selectedItems.length);
+        const choosenItem = selectedItems[randomNumber];
+
+        if (choosenItem) {
+            setChoosen(choosenItem);
+        }
+    }
+
+  
+
+    
+
     return (
         <div className='store'>
             <div className="products-container">
@@ -38,9 +54,18 @@ const Store = () => {
             </div>
             <div className="selected-product-container">
                 {
-                    <Cart selected = {selectedItems}></Cart>
+                    <Cart selected = {selectedItems} choosenItem = {choosen} chooseOne = {chooseOne}></Cart>
                 }
+
+               
             </div>
+
+            
+               
+                    
+               
+            
+            
         </div>
     );
 };

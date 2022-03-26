@@ -32,3 +32,23 @@
 .choose-again-btn:hover {
     opacity: 1;
 }
+
+.choosen-item {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    border-radius: 8px;
+}
+
+.choosen-item-img {
+    width: 50px;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin:10px;
+}
+
+.choosen-item-name {
+    margin: 0;
+    margin: 10px;
+}
