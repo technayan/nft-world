@@ -12,16 +12,33 @@ const Store = () => {
         .then (data => setProducts(data))
     }, []);
 
+    const [selectedItems, setSelectedItems] = useState([]);
+    
+    let selected = [];
+
+    const addToCart = (props) => {
+
+        const exist = selectedItems.find(product => product.id === props.id);
+        if(!exist) {
+            selected = [...selectedItems, props];
+            setSelectedItems(selected);
+        } else {
+
+        }
+    }
+
 
     return (
         <div className='store'>
             <div className="products-container">
                 {
-                    products.map(product => <Product key = {product.id} product = {product}></Product>)
+                    products.map(product => <Product key = {product.id} product = {product} addToCartHandler = {addToCart}></Product>)
                 }
             </div>
             <div className="selected-product-container">
-                <Cart></Cart>
+                {
+                    <Cart selected = {selectedItems}></Cart>
+                }
             </div>
         </div>
     );
